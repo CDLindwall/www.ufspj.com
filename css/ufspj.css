@@ -9,11 +9,20 @@ body {
     font-family: helvetica, arial, sans-serif;    
 }
 
-img { width: 100%; }
+img { 
+    width: 100%; 
+
+}
 
 #wrapper {
     margin: 0 auto;
     width: 90%;
+}
+
+h2 p {
+    font-weight: 300;
+    text-align: right;
+    font-size: 15px;
 }
 
 nav, section, footer {
@@ -38,6 +47,7 @@ header h2 {
 
 header img {
 }
+
 h1{
     color: rgb (9,28,54);
 }
@@ -67,6 +77,11 @@ section {
     text-decoration: none;
     width: 50%;
 }
+
+.titles {
+    background-color: #d3d3d3;
+}
+    
 
 @media screen and (max-width: 400px) {
     
@@ -116,6 +131,7 @@ text-align: left;
 padding: 0px;
 padding-left: 14px; 
 =======
+    
 a { 
     font-weight:600;
 }
